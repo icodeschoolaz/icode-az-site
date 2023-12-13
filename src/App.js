@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import GlobalStyles from '@mui/material/GlobalStyles';
+import CssBaseline from '@mui/material/CssBaseline';
+
+import './App.css';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import AppHeader from './components/app-header';
+import AppHero from './components/app-hero';
+
+const defaultTheme = createTheme({
+  palette: {
+    primary: {
+      main: "#000000"
+    }
+  }
+});
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={defaultTheme}>
+      <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
+      <CssBaseline />
+      <AppHeader/>
+      <AppHero/>
+    </ThemeProvider>
   );
 }
 
