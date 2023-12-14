@@ -6,7 +6,7 @@ import { Box, Button, Container, MenuItem } from '@mui/material';
 import logo from '../images/logo.png';
 import { Locations } from '../utils/constants';
 
-const AppHeader = () => {
+const AppFooter = () => {
     return (
         <AppBar position="static" className='theme-secondary'>
             <Container maxWidth="xl">
@@ -29,4 +29,4 @@ const AppHeader = () => {
     )
 }
 
-export default AppHeader;
+export default AppFooter;
