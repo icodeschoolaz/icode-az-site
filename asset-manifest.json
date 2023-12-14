@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/icode-az-site/index.html/static/css/main.041097c5.css",
-    "main.js": "/icode-az-site/index.html/static/js/main.9c0d3422.js",
+    "main.js": "/icode-az-site/index.html/static/js/main.f8aedcd8.js",
     "static/js/787.7ca5cced.chunk.js": "/icode-az-site/index.html/static/js/787.7ca5cced.chunk.js",
     "static/media/iCode_Graphic.png": "/icode-az-site/index.html/static/media/iCode_Graphic.b7a018e3ff739bfd9dc1.png",
     "static/media/logo.png": "/icode-az-site/index.html/static/media/logo.c5e9a7a0769f6570a489.png",
@@ -63,11 +63,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/icode-az-site/index.html/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/icode-az-site/index.html/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "main.041097c5.css.map": "/icode-az-site/index.html/static/css/main.041097c5.css.map",
-    "main.9c0d3422.js.map": "/icode-az-site/index.html/static/js/main.9c0d3422.js.map",
+    "main.f8aedcd8.js.map": "/icode-az-site/index.html/static/js/main.f8aedcd8.js.map",
     "787.7ca5cced.chunk.js.map": "/icode-az-site/index.html/static/js/787.7ca5cced.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.041097c5.css",
-    "static/js/main.9c0d3422.js"
+    "static/js/main.f8aedcd8.js"
   ]
 }
