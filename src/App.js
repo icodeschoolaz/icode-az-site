@@ -4,7 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import AppHeader from './components/AppHeader';
 import { Container } from '@mui/material';
 import Router from './utils/Router';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { StrictMode } from 'react';
 
 import './App.css';
@@ -25,7 +25,7 @@ const defaultTheme = createTheme({
 const App = () => {
   return (
   <StrictMode>
-    <BrowserRouter basename='icode-az-site'>
+    <HashRouter>
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
       <CssBaseline />
@@ -35,7 +35,7 @@ const App = () => {
       </Container>
       <AppFooter/>
     </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
     </StrictMode>
   );
 }
