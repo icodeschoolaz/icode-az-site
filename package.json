@@ -1,7 +1,7 @@
 {
   "name": "icode-az-site",
   "version": "0.1.0",
-  "homepage": "https://icodeschoolaz.github.io/icode-az-site",
+  "homepage": "https://icodeschoolaz.github.io/icode-az-site/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.0",
+    "react-router-dom": "^6.21.1"
   }
 }

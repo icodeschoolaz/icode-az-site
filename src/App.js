@@ -1,15 +1,18 @@
-
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import GlobalStyles from '@mui/material/GlobalStyles';
 import CssBaseline from '@mui/material/CssBaseline';
+import AppHeader from './components/AppHeader';
+import { Container } from '@mui/material';
+import Router from './utils/Router';
+import { BrowserRouter } from 'react-router-dom';
+import { StrictMode } from 'react';
 
 import './App.css';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import AppHeader from './components/app-header';
-import AppHero from './components/app-hero';
+import AppFooter from './components/AppFooter';
 
 const defaultTheme = createTheme({
   palette: {
@@ -21,12 +24,19 @@ const defaultTheme = createTheme({
 
 const App = () => {
   return (
+  <StrictMode>
+    <BrowserRouter>
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
       <CssBaseline />
       <AppHeader/>
-      <AppHero/>
+      <Container maxWidth="xl" disableGutters>
+        <Router/>
+      </Container>
+      <AppFooter/>
     </ThemeProvider>
+    </BrowserRouter>
+    </StrictMode>
   );
 }
 

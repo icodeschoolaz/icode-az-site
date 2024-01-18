@@ -4,7 +4,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Link from '@mui/material/Link';
 import { Box, Button, Container, MenuItem } from '@mui/material';
 import logo from '../images/logo.png';
-import { Locations } from '../utils/constants';
+import { Locations } from '../utils/Constants';
 
 const AppHeader = () => {
     return (

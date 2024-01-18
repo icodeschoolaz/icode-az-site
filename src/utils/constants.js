@@ -1,3 +1,10 @@
+import Diversity3Icon from '@mui/icons-material/Diversity3';
+import PsychologyIcon from '@mui/icons-material/Psychology';
+import SchoolIcon from '@mui/icons-material/School';
+import TrackChangesIcon from '@mui/icons-material/TrackChanges';
+import CenterFocusStrongIcon from '@mui/icons-material/CenterFocusStrong';
+import HistoryToggleOffIcon from '@mui/icons-material/HistoryToggleOff';
+
 export const Locations = [
     {
         title: 'Scottsdale',
@@ -32,4 +39,37 @@ export const Locations = [
         fb: '',
         ig: ''
     }
+]
+
+export const IsportInfo = [
+    {
+        Icon: <Diversity3Icon/>,
+        primaryText: 'Teamwork and Communication Skills',
+        secondaryText: 'Effective collaboration with teammates is essential for success in many eSports, fostering a sense of camaraderie and shared goals.'
+    },
+    {
+        Icon: <PsychologyIcon/>,
+        primaryText: 'Critical Thinking and Problem-Solving',
+        secondaryText: 'Many eSports games require quick thinking, strategic planning, and adaptability.'
+    },
+    {
+        Icon: <SchoolIcon/>,
+        primaryText: 'Scholarship Opportunities',
+        secondaryText: 'As eSports gain recognition, many colleges and universities are offering scholarships for talented players. Involvement in eSports could open doors to educational opportunities for your child.'
+    },
+    {
+        Icon: <TrackChangesIcon/>,
+        primaryText: 'Hand-Eye Coordination',
+        secondaryText: 'This can have positive implications in other areas of life, such as academics or sports that require manual dexterity.'
+    },
+    {
+        Icon: <CenterFocusStrongIcon/>,
+        primaryText: 'Focus and Concentration',
+        secondaryText: 'This can translate into improved attention spans and discipline, as players need to stay engaged for extended periods to perform at their best.'
+    },
+    {
+        Icon: <HistoryToggleOffIcon/>,
+        primaryText: 'Self-discipline',
+        secondaryText: 'eSports instills a sense of self-discipline and time management at a young age, teaching the importance of setting goals and working consistently to achieve them.'
+    },
 ]

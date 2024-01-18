@@ -3,6 +3,19 @@
   background-color: #000000;
   color: #ffffff;
 }
+.MuiAvatar-circular.theme-purple {
+  background-color: #512294;
+}
+.theme-tertiary {
+  color: #bdbdbd;
+}
+.theme-tertiary > .MuiListItemText-primary {
+  color: #ffffff;
+  font-size: larger;
+}
+.theme-tertiary > .MuiListItemText-secondary {
+  color: #bdbdbd;
+}
 
 .App-link {
   color: #61dafb;
