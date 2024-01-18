@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/icode-az-site/static/css/main.83a04223.css",
-    "main.js": "/icode-az-site/static/js/main.6d408f28.js",
+    "main.js": "/icode-az-site/static/js/main.96a67cb7.js",
     "static/js/787.7ca5cced.chunk.js": "/icode-az-site/static/js/787.7ca5cced.chunk.js",
     "static/media/iSports_header.png": "/icode-az-site/static/media/iSports_header.d725ce051f70739fc08a.png",
     "static/media/iCode_Graphic.png": "/icode-az-site/static/media/iCode_Graphic.b7a018e3ff739bfd9dc1.png",
@@ -64,11 +64,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/icode-az-site/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/icode-az-site/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "main.83a04223.css.map": "/icode-az-site/static/css/main.83a04223.css.map",
-    "main.6d408f28.js.map": "/icode-az-site/static/js/main.6d408f28.js.map",
+    "main.96a67cb7.js.map": "/icode-az-site/static/js/main.96a67cb7.js.map",
     "787.7ca5cced.chunk.js.map": "/icode-az-site/static/js/787.7ca5cced.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83a04223.css",
-    "static/js/main.6d408f28.js"
+    "static/js/main.96a67cb7.js"
   ]
 }
