@@ -1,7 +1,7 @@
 {
   "name": "icode-az-site",
   "version": "0.1.1",
-  "homepage": "https://icodeschoolaz.github.io/icode-az-site",
+  "homepage": "https://icodeschoolaz.github.io/icode-az-site/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
