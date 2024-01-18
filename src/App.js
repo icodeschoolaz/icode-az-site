@@ -25,7 +25,7 @@ const defaultTheme = createTheme({
 const App = () => {
   return (
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='icode-az-site'>
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
       <CssBaseline />
